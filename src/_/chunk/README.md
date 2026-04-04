@@ -1,22 +1,18 @@
 # chunk()
 
-## 📌 Description
 `chunk` function splits an array into smaller sub-arrays based on a given size.
 
----
 
-## ⚙️ Parameters
+## Parameters
 
 - `array` (Array): The array to split  
 - `size` (Number): Number of elements per chunk  
 
----
 
 ## 📤 Returns
 
 - A new array of sub-arrays (chunks)
-
----
+- 
 
 ## 🧪 Example
 
