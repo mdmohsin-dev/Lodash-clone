@@ -10,6 +10,7 @@ import dropWhile from "./dropWhile/dropWhile.js";
 import fill from "./fill/fill.js";
 import findIndex from "./findIndex/findIndex.js";
 import findLastIndex from "./findLastIndex/findLastIndex.js";
+import faltten from "./flatten/faltten.js";
 import head from "./head/head.js";
 import indexOf from "./indexOf/indexOf.js";
 import initial from "./initial/initial.js";
@@ -34,7 +35,8 @@ const _ = {
     indexOf,
     initial,
     intersection,
-    intersectionBy
+    intersectionBy,
+    faltten
 }
 
 

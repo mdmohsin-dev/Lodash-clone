@@ -1,4 +1,4 @@
-# Lodash Clone 🛠️
+# Lodash Clone
 
 A JavaScript utility library inspired by Lodash, built from scratch for learning and understanding how core utility functions work internally.
 
