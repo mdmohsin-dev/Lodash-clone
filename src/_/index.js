@@ -12,11 +12,13 @@ import findIndex from "./findIndex/findIndex.js";
 import findLastIndex from "./findLastIndex/findLastIndex.js";
 import faltten from "./flatten/faltten.js";
 import flattenDeep from "./flattenDeep/flattenDeep.js";
+import fromPairs from "./fromPairs/fromPairs.js";
 import head from "./head/head.js";
 import indexOf from "./indexOf/indexOf.js";
 import initial from "./initial/initial.js";
 import intersection from "./intersection/intersection.js";
 import intersectionBy from "./intersectionBy/intersectionBy.js";
+import join from "./join/join.js";
 
 
 const _ = {
@@ -38,7 +40,9 @@ const _ = {
     intersection,
     intersectionBy,
     faltten,
-    flattenDeep
+    flattenDeep,
+    fromPairs,
+    join
 }
 
 
