@@ -11,6 +11,7 @@ import fill from "./fill/fill.js";
 import findIndex from "./findIndex/findIndex.js";
 import findLastIndex from "./findLastIndex/findLastIndex.js";
 import faltten from "./flatten/faltten.js";
+import flattenDeep from "./flattenDeep/flattenDeep.js";
 import head from "./head/head.js";
 import indexOf from "./indexOf/indexOf.js";
 import initial from "./initial/initial.js";
@@ -36,7 +37,8 @@ const _ = {
     initial,
     intersection,
     intersectionBy,
-    faltten
+    faltten,
+    flattenDeep
 }
 
 

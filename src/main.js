@@ -56,4 +56,5 @@ const findSameValue = _.intersection([1, 2, 3], [2, 3, 4])
 const findSameDecimalValue = _.intersectionBy([1.1, 2.2, 3.5], [2.1, 3.3, 5.4])
 
 const breakArray = _.faltten([1,[2,3],4])
-console.log(breakArray)
+
+const breakDeepArray = _.flattenDeep([1, [2, [3, [4]], 5]])
