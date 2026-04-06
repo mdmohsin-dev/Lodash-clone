@@ -19,6 +19,7 @@ import initial from "./initial/initial.js";
 import intersection from "./intersection/intersection.js";
 import intersectionBy from "./intersectionBy/intersectionBy.js";
 import join from "./join/join.js";
+import last from "./last/last.js";
 
 
 const _ = {
@@ -42,7 +43,8 @@ const _ = {
     faltten,
     flattenDeep,
     fromPairs,
-    join
+    join,
+    last
 }
 
 

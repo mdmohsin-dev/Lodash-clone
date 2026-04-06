@@ -62,4 +62,6 @@ const breakDeepArray = _.flattenDeep([1, [2, [3, [4]], 5]])
 const pairs = _.fromPairs([['a', 1], ['b', 2]])
 
 const joins = _.join(['a', 'b', 'c'])
-console.log(joins)
+
+const findLastIndex = _.last([])
+console.log(findLastIndex)
