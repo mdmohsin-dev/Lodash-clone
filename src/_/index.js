@@ -20,6 +20,7 @@ import intersection from "./intersection/intersection.js";
 import intersectionBy from "./intersectionBy/intersectionBy.js";
 import join from "./join/join.js";
 import last from "./last/last.js";
+import lastIndexOf from "./lastIndexOf/lastIndexOf.js";
 
 
 const _ = {
@@ -44,7 +45,8 @@ const _ = {
     flattenDeep,
     fromPairs,
     join,
-    last
+    last,
+    lastIndexOf
 }
 
 

@@ -63,5 +63,7 @@ const pairs = _.fromPairs([['a', 1], ['b', 2]])
 
 const joins = _.join(['a', 'b', 'c'])
 
-const findLastIndex = _.last([])
+const findLastElement = _.last([1,2,3,4])
+
+const findLastIndex = _.lastIndexOf([1,2,3,4,3,5,2],2)
 console.log(findLastIndex)
