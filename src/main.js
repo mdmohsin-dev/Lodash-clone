@@ -74,4 +74,6 @@ const pullAllArray = _.pullAll([1, 2, 3, 4, 5, 6], [1, 3])
 const pullByIndexes = _.pullAt(['a','b',3,4,5],[1,3])
 
 const arrayReverse = _.reverse([1,2,3,4])
-console.log(arrayReverse)
+
+const sliceArray = _.slice([1,2,3,4,5],1,3)
+console.log(sliceArray)
