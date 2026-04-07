@@ -23,6 +23,7 @@ import last from "./last/last.js";
 import lastIndexOf from "./lastIndexOf/lastIndexOf.js";
 import pull from "./pull/pull.js";
 import pullAll from "./pullAll/pullAll.js";
+import pullAt from "./pullAt/pullAt.js";
 
 
 const _ = {
@@ -50,7 +51,8 @@ const _ = {
     last,
     lastIndexOf,
     pull,
-    pullAll
+    pullAll,
+    pullAt
 }
 
 

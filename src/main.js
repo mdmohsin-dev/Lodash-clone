@@ -70,4 +70,6 @@ const findLastIndex = _.lastIndexOf([1, 2, 3, 4, 3, 5, 2], 2)
 const pullArray = _.pull([1, 2, 3, 4, 5, 6, 2], 2, 3)
 
 const pullAllArray = _.pullAll([1, 2, 3, 4, 5, 6], [1, 3])
-console.log(pullAllArray)
+
+const pullByIndexes = _.pullAt(['a','b',3,4,5],[1,3])
+console.log(pullByIndexes)
