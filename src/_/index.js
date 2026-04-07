@@ -26,6 +26,7 @@ import pullAll from "./pullAll/pullAll.js";
 import pullAt from "./pullAt/pullAt.js";
 import reverse from "./reverse/reverse.js";
 import slice from "./slice/slice.js";
+import union from "./union/union.js";
 
 
 const _ = {
@@ -56,7 +57,8 @@ const _ = {
     pullAll,
     pullAt,
     reverse,
-    slice
+    slice,
+    union
 }
 
 

@@ -76,4 +76,6 @@ const pullByIndexes = _.pullAt(['a','b',3,4,5],[1,3])
 const arrayReverse = _.reverse([1,2,3,4])
 
 const sliceArray = _.slice([1,2,3,4,5],1,3)
-console.log(sliceArray)
+
+const removeDuplicate = _.union([1,2,3],[2,3,4],[4,5])
+console.log(removeDuplicate)
