@@ -21,6 +21,8 @@ import intersectionBy from "./intersectionBy/intersectionBy.js";
 import join from "./join/join.js";
 import last from "./last/last.js";
 import lastIndexOf from "./lastIndexOf/lastIndexOf.js";
+import pull from "./pull/pull.js";
+import pullAll from "./pullAll/pullAll.js";
 
 
 const _ = {
@@ -46,7 +48,9 @@ const _ = {
     fromPairs,
     join,
     last,
-    lastIndexOf
+    lastIndexOf,
+    pull,
+    pullAll
 }
 
 
