@@ -24,6 +24,7 @@ import lastIndexOf from "./lastIndexOf/lastIndexOf.js";
 import pull from "./pull/pull.js";
 import pullAll from "./pullAll/pullAll.js";
 import pullAt from "./pullAt/pullAt.js";
+import reverse from "./reverse/reverse.js";
 
 
 const _ = {
@@ -52,7 +53,8 @@ const _ = {
     lastIndexOf,
     pull,
     pullAll,
-    pullAt
+    pullAt,
+    reverse
 }
 
 
