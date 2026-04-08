@@ -71,13 +71,15 @@ const pullArray = _.pull([1, 2, 3, 4, 5, 6, 2], 2, 3)
 
 const pullAllArray = _.pullAll([1, 2, 3, 4, 5, 6], [1, 3])
 
-const pullByIndexes = _.pullAt(['a','b',3,4,5],[1,3])
+const pullByIndexes = _.pullAt(['a', 'b', 3, 4, 5], [1, 3])
 
-const arrayReverse = _.reverse([1,2,3,4])
+const arrayReverse = _.reverse([1, 2, 3, 4])
 
-const sliceArray = _.slice([1,2,3,4,5],1,3)
+const sliceArray = _.slice([1, 2, 3, 4, 5], 1, 3)
 
-const removeDuplicateInMultipleArray = _.union([1,2,3],[2,3,4],[4,5])
+const getUniqInMultipleArray = _.union([1, 2, 3], [2, 3, 4], [4, 5])
 
-const getUniqValue = _.uniq([1,2,2,3,4,4,5])
-console.log(getUniqValue)
+const getUniqValue = _.uniq([1, 2, 2, 3, 4, 4, 5])
+
+const uniqSortArray = _.sortedUniq([1, 1, 2, 2, 3, 4])
+console.log(uniqSortArray)
