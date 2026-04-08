@@ -28,6 +28,7 @@ import reverse from "./reverse/reverse.js";
 import slice from "./slice/slice.js";
 import sortedUniq from "./sortedUniq/sortedUniq.js";
 import tail from "./tail/tail.js";
+import take from "./take/take.js";
 import union from "./union/union.js";
 import uniq from "./uniq/uniq.js";
 
@@ -64,7 +65,8 @@ const _ = {
     sortedUniq,
     union,
     uniq,
-    tail
+    tail,
+    take
 
 }
 

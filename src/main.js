@@ -84,3 +84,6 @@ const getUniqValue = _.uniq([1, 2, 2, 3, 4, 4, 5])
 const uniqSortArray = _.sortedUniq([1, 1, 2, 2, 3, 4])
 
 const removeFirstElement = _.tail([2, 3, 5, 7, 9])
+
+const takeValue = _.take([1,2,3,4,5],6)
+console.log(takeValue)
