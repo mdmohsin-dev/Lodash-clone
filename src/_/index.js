@@ -29,6 +29,7 @@ import slice from "./slice/slice.js";
 import sortedUniq from "./sortedUniq/sortedUniq.js";
 import tail from "./tail/tail.js";
 import take from "./take/take.js";
+import takeRight from "./takeRight/takeRight.js";
 import union from "./union/union.js";
 import uniq from "./uniq/uniq.js";
 
@@ -66,7 +67,8 @@ const _ = {
     union,
     uniq,
     tail,
-    take
+    take,
+    takeRight
 
 }
 
