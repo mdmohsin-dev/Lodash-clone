@@ -27,6 +27,7 @@ import pullAt from "./pullAt/pullAt.js";
 import reverse from "./reverse/reverse.js";
 import slice from "./slice/slice.js";
 import union from "./union/union.js";
+import uniq from "./uniq/uniq.js";
 
 
 const _ = {
@@ -58,7 +59,8 @@ const _ = {
     pullAt,
     reverse,
     slice,
-    union
+    union,
+    uniq
 }
 
 

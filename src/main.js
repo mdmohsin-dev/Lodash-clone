@@ -77,5 +77,7 @@ const arrayReverse = _.reverse([1,2,3,4])
 
 const sliceArray = _.slice([1,2,3,4,5],1,3)
 
-const removeDuplicate = _.union([1,2,3],[2,3,4],[4,5])
-console.log(removeDuplicate)
+const removeDuplicateInMultipleArray = _.union([1,2,3],[2,3,4],[4,5])
+
+const getUniqValue = _.uniq([1,2,2,3,4,4,5])
+console.log(getUniqValue)
