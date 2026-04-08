@@ -82,4 +82,5 @@ const getUniqInMultipleArray = _.union([1, 2, 3], [2, 3, 4], [4, 5])
 const getUniqValue = _.uniq([1, 2, 2, 3, 4, 4, 5])
 
 const uniqSortArray = _.sortedUniq([1, 1, 2, 2, 3, 4])
-console.log(uniqSortArray)
+
+const removeFirstElement = _.tail([2, 3, 5, 7, 9])
