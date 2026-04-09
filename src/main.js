@@ -92,4 +92,6 @@ const takeRightValue = _.takeRight([1, 2, 3, 4, 5], 2)
 const getSize = _.size([1,2,3,4])
 
 const withoutValue = _.without(['a', 2, 3, 4], 'a', 3)
-console.log(withoutValue)
+
+const checkArray = _.isArray([1,2,3,4])
+console.log(checkArray)

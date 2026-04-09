@@ -18,6 +18,7 @@ import indexOf from "./indexOf/indexOf.js";
 import initial from "./initial/initial.js";
 import intersection from "./intersection/intersection.js";
 import intersectionBy from "./intersectionBy/intersectionBy.js";
+import isArray from "./isArray/isArray.js";
 import join from "./join/join.js";
 import last from "./last/last.js";
 import lastIndexOf from "./lastIndexOf/lastIndexOf.js";
@@ -54,6 +55,7 @@ const _ = {
     initial,
     intersection,
     intersectionBy,
+    isArray,
     faltten,
     flattenDeep,
     fromPairs,
