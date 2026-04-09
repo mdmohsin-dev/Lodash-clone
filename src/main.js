@@ -94,4 +94,6 @@ const getSize = _.size([1,2,3,4])
 const withoutValue = _.without(['a', 2, 3, 4], 'a', 3)
 
 const checkArray = _.isArray([1,2,3,4])
-console.log(checkArray)
+
+const checkBoolean = _.isBoolean(true)
+console.log(checkBoolean)

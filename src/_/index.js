@@ -19,6 +19,7 @@ import initial from "./initial/initial.js";
 import intersection from "./intersection/intersection.js";
 import intersectionBy from "./intersectionBy/intersectionBy.js";
 import isArray from "./isArray/isArray.js";
+import isBoolean from "./isBoolean/isBoolean.js";
 import join from "./join/join.js";
 import last from "./last/last.js";
 import lastIndexOf from "./lastIndexOf/lastIndexOf.js";
@@ -56,6 +57,7 @@ const _ = {
     intersection,
     intersectionBy,
     isArray,
+    isBoolean,
     faltten,
     flattenDeep,
     fromPairs,
@@ -74,7 +76,7 @@ const _ = {
     take,
     takeRight,
     size,
-    without
+    without,
 }
 
 
