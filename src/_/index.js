@@ -25,6 +25,7 @@ import pull from "./pull/pull.js";
 import pullAll from "./pullAll/pullAll.js";
 import pullAt from "./pullAt/pullAt.js";
 import reverse from "./reverse/reverse.js";
+import size from "./size/size.js";
 import slice from "./slice/slice.js";
 import sortedUniq from "./sortedUniq/sortedUniq.js";
 import tail from "./tail/tail.js";
@@ -68,7 +69,8 @@ const _ = {
     uniq,
     tail,
     take,
-    takeRight
+    takeRight,
+    size
 
 }
 

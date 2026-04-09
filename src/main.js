@@ -88,4 +88,6 @@ const removeFirstElement = _.tail([2, 3, 5, 7, 9])
 const takeValue = _.take([1,2,3,4,5],2)
 
 const takeRightValue = _.takeRight([1, 2, 3, 4, 5], 2)
-console.log(takeRightValue)
+
+const getSize = _.size([1,2,3,4])
+console.log(getSize)
