@@ -96,4 +96,6 @@ const withoutValue = _.without(['a', 2, 3, 4], 'a', 3)
 const checkArray = _.isArray([1,2,3,4])
 
 const checkBoolean = _.isBoolean(true)
-console.log(checkBoolean)
+
+const checkNumber = _.isNumber(1)
+console.log(checkNumber)

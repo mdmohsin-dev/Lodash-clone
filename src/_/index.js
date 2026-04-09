@@ -20,6 +20,7 @@ import intersection from "./intersection/intersection.js";
 import intersectionBy from "./intersectionBy/intersectionBy.js";
 import isArray from "./isArray/isArray.js";
 import isBoolean from "./isBoolean/isBoolean.js";
+import isNumber from "./isNumber/isNumber.js";
 import join from "./join/join.js";
 import last from "./last/last.js";
 import lastIndexOf from "./lastIndexOf/lastIndexOf.js";
@@ -58,6 +59,7 @@ const _ = {
     intersectionBy,
     isArray,
     isBoolean,
+    isNumber,
     faltten,
     flattenDeep,
     fromPairs,
