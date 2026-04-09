@@ -98,4 +98,6 @@ const checkArray = _.isArray([1,2,3,4])
 const checkBoolean = _.isBoolean(true)
 
 const checkNumber = _.isNumber(1)
-console.log(checkNumber)
+
+const checkObject = _.isObject({})
+console.log(checkObject)
