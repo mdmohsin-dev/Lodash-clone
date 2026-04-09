@@ -33,6 +33,7 @@ import take from "./take/take.js";
 import takeRight from "./takeRight/takeRight.js";
 import union from "./union/union.js";
 import uniq from "./uniq/uniq.js";
+import without from "./without/without.js";
 
 
 const _ = {
@@ -70,8 +71,8 @@ const _ = {
     tail,
     take,
     takeRight,
-    size
-
+    size,
+    without
 }
 
 
