@@ -29,6 +29,7 @@ import last from "./last/last.js";
 import lastIndexOf from "./lastIndexOf/lastIndexOf.js";
 import lt from "./lt/lt.js";
 import lte from "./lte/lte.js";
+import max from "./max/max.js";
 import pull from "./pull/pull.js";
 import pullAll from "./pullAll/pullAll.js";
 import pullAt from "./pullAt/pullAt.js";
@@ -76,6 +77,7 @@ const _ = {
     lastIndexOf,
     lt,
     lte,
+    max,
     pull,
     pullAll,
     pullAt,

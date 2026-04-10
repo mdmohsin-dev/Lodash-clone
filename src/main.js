@@ -108,4 +108,6 @@ const lessThan = _.lt(1,2)
 const greaterThanOrEqual = _.gte(4,4)
 
 const lessThanOrEqual = _.lte(3,3)
-console.log(lessThanOrEqual)
+
+const maxNum = _.max([1,2,3,4,5])
+console.log(maxNum)
