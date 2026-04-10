@@ -26,6 +26,7 @@ import isObject from "./isObject/isObject.js";
 import join from "./join/join.js";
 import last from "./last/last.js";
 import lastIndexOf from "./lastIndexOf/lastIndexOf.js";
+import lt from "./lt/lt.js";
 import pull from "./pull/pull.js";
 import pullAll from "./pullAll/pullAll.js";
 import pullAt from "./pullAt/pullAt.js";
@@ -70,6 +71,7 @@ const _ = {
     join,
     last,
     lastIndexOf,
+    lt,
     pull,
     pullAll,
     pullAt,
