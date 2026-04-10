@@ -13,6 +13,7 @@ import findLastIndex from "./findLastIndex/findLastIndex.js";
 import faltten from "./flatten/faltten.js";
 import flattenDeep from "./flattenDeep/flattenDeep.js";
 import fromPairs from "./fromPairs/fromPairs.js";
+import gt from "./gt/gt.js";
 import head from "./head/head.js";
 import indexOf from "./indexOf/indexOf.js";
 import initial from "./initial/initial.js";
@@ -53,6 +54,7 @@ const _ = {
     fill,
     findIndex,
     findLastIndex,
+    gt,
     head,
     indexOf,
     initial,

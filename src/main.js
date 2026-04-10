@@ -99,5 +99,7 @@ const checkBoolean = _.isBoolean(true)
 
 const checkNumber = _.isNumber(1)
 
-const checkObject = _.isObject({})
-console.log(checkObject)
+const checkObject = _.isObject({name:'mohsin'})
+
+const greaterThan = _.gt(2,1)
+console.log(greaterThan)
