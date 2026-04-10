@@ -104,3 +104,8 @@ const checkObject = _.isObject({name:'mohsin'})
 const greaterThan = _.gt(2,1)
 
 const lessThan = _.lt(1,2)
+
+const greaterThanOrEqual = _.gte(4,4)
+
+const lessThanOrEqual = _.lte(3,3)
+console.log(lessThanOrEqual)

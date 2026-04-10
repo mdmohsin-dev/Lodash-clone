@@ -14,6 +14,7 @@ import faltten from "./flatten/faltten.js";
 import flattenDeep from "./flattenDeep/flattenDeep.js";
 import fromPairs from "./fromPairs/fromPairs.js";
 import gt from "./gt/gt.js";
+import gte from "./gte/gte.js";
 import head from "./head/head.js";
 import indexOf from "./indexOf/indexOf.js";
 import initial from "./initial/initial.js";
@@ -27,6 +28,7 @@ import join from "./join/join.js";
 import last from "./last/last.js";
 import lastIndexOf from "./lastIndexOf/lastIndexOf.js";
 import lt from "./lt/lt.js";
+import lte from "./lte/lte.js";
 import pull from "./pull/pull.js";
 import pullAll from "./pullAll/pullAll.js";
 import pullAt from "./pullAt/pullAt.js";
@@ -56,6 +58,7 @@ const _ = {
     findIndex,
     findLastIndex,
     gt,
+    gte,
     head,
     indexOf,
     initial,
@@ -72,6 +75,7 @@ const _ = {
     last,
     lastIndexOf,
     lt,
+    lte,
     pull,
     pullAll,
     pullAt,
