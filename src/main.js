@@ -110,4 +110,6 @@ const greaterThanOrEqual = _.gte(4,4)
 const lessThanOrEqual = _.lte(3,3)
 
 const maxNum = _.max([1,2,3,4,5])
-console.log(maxNum)
+
+const checkEqual = _.eq(10,10)
+console.log(checkEqual)

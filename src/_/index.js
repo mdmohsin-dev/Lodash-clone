@@ -7,6 +7,7 @@ import drop from "./drop/drop.js";
 import dropRight from "./dropRight/dropRight.js";
 import dropRightWhite from "./dropRightWhile/dropRightWhile.js";
 import dropWhile from "./dropWhile/dropWhile.js";
+import eq from "./eq/eq.js";
 import fill from "./fill/fill.js";
 import findIndex from "./findIndex/findIndex.js";
 import findLastIndex from "./findLastIndex/findLastIndex.js";
@@ -55,6 +56,7 @@ const _ = {
     dropRight,
     dropWhile,
     dropRightWhite,
+    eq,
     fill,
     findIndex,
     findLastIndex,
