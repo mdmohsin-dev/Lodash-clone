@@ -31,6 +31,7 @@ import lastIndexOf from "./lastIndexOf/lastIndexOf.js";
 import lt from "./lt/lt.js";
 import lte from "./lte/lte.js";
 import max from "./max/max.js";
+import nth from "./nth/nth.js";
 import pull from "./pull/pull.js";
 import pullAll from "./pullAll/pullAll.js";
 import pullAt from "./pullAt/pullAt.js";
@@ -44,6 +45,7 @@ import takeRight from "./takeRight/takeRight.js";
 import union from "./union/union.js";
 import uniq from "./uniq/uniq.js";
 import without from "./without/without.js";
+import xor from "./xor/xor.js";
 
 
 const _ = {
@@ -80,6 +82,7 @@ const _ = {
     lt,
     lte,
     max,
+    nth,
     pull,
     pullAll,
     pullAt,
@@ -93,6 +96,7 @@ const _ = {
     takeRight,
     size,
     without,
+    xor
 }
 
 
