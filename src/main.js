@@ -47,6 +47,8 @@ const customer = _.findLastIndex(customers, { user: 'barney', active: false })
 
 const theHead = _.head([1, 2, 3])
 
+const checkValue = _.includes([1, 2, 3, 4], 2)
+
 const searchIndex = _.indexOf([1, 2, 3, 4], 2)
 
 const initialArray = _.initial([1, 2, 3, 4])
@@ -85,34 +87,34 @@ const uniqSortArray = _.sortedUniq([1, 1, 2, 2, 3, 4])
 
 const removeFirstElement = _.tail([2, 3, 5, 7, 9])
 
-const takeValue = _.take([1,2,3,4,5],2)
+const takeValue = _.take([1, 2, 3, 4, 5], 2)
 
 const takeRightValue = _.takeRight([1, 2, 3, 4, 5], 2)
 
-const getSize = _.size([1,2,3,4])
+const getSize = _.size([1, 2, 3, 4])
 
 const withoutValue = _.without(['a', 2, 3, 4], 'a', 3)
 
-const checkArray = _.isArray([1,2,3,4])
+const checkArray = _.isArray([1, 2, 3, 4])
 
 const checkBoolean = _.isBoolean(true)
 
 const checkNumber = _.isNumber(1)
 
-const checkObject = _.isObject({name:'mohsin'})
+const checkObject = _.isObject({ name: 'mohsin' })
 
-const greaterThan = _.gt(2,1)
+const greaterThan = _.gt(2, 1)
 
-const lessThan = _.lt(1,2)
+const lessThan = _.lt(1, 2)
 
-const greaterThanOrEqual = _.gte(4,4)
+const greaterThanOrEqual = _.gte(4, 4)
 
-const lessThanOrEqual = _.lte(3,3)
+const lessThanOrEqual = _.lte(3, 3)
 
-const maxNum = _.max([1,2,3,4,5])
+const maxNum = _.max([1, 2, 3, 4, 5])
 
-const checkEqual = _.eq(10,10)
+const checkEqual = _.eq(10, 10)
 
-const removeSameItem = _.xor([1,2],[2,3])
+const removeSameItem = _.xor([1, 2], [2, 3])
 
-const getValueByIndex = _.nth([1,2,3,4,5],2)
+const getValueByIndex = _.nth([1, 2, 3, 4, 5], 2)

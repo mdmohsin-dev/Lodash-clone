@@ -17,6 +17,7 @@ import fromPairs from "./fromPairs/fromPairs.js";
 import gt from "./gt/gt.js";
 import gte from "./gte/gte.js";
 import head from "./head/head.js";
+import includes from "./includes/includes.js";
 import indexOf from "./indexOf/indexOf.js";
 import initial from "./initial/initial.js";
 import intersection from "./intersection/intersection.js";
@@ -66,6 +67,7 @@ const _ = {
     gte,
     head,
     indexOf,
+    includes,
     initial,
     intersection,
     intersectionBy,
