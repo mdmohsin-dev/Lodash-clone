@@ -11,6 +11,15 @@ const diffrences = _.diffrence([1, 2, 3], [3, 4])
 
 const diffrencesBy = _.diffrenceBy([1.2, 2.2, 2.7], [2.2])
 
+
+
+const objects = [{ x: 1 }, { x: 2 }];
+const others = [{ x: 1 }];
+
+const resultDiffrenceWith = _.differenceWith(objects, others, (a, b) => a.x === b.x);
+console.log(resultDiffrenceWith)
+
+
 const drops = _.drop([1, 2, 3, 4], 2)
 
 const dropsRight = _.dropRight([1, 2, 3, 4, 5], 2)

@@ -3,6 +3,7 @@ import compact from "./compact/compact.js";
 import concact from "./concat/concat.js";
 import diffrence from "./diffrence/diffrence.js";
 import diffrenceBy from "./diffrenceBy/diffrenceBy.js";
+import differenceWith from "./diffrenceWith/dirrenceWith.js";
 import drop from "./drop/drop.js";
 import dropRight from "./dropRight/dropRight.js";
 import dropRightWhite from "./dropRightWhile/dropRightWhile.js";
@@ -55,6 +56,7 @@ const _ = {
     concact,
     diffrence,
     diffrenceBy,
+    differenceWith,
     drop,
     dropRight,
     dropWhile,
