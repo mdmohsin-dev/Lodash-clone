@@ -48,6 +48,7 @@ import take from "./take/take.js";
 import takeRight from "./takeRight/takeRight.js";
 import union from "./union/union.js";
 import uniq from "./uniq/uniq.js";
+import { upperFirst } from "./upperFirst/upperFirst.js";
 import without from "./without/without.js";
 import xor from "./xor/xor.js";
 
@@ -99,6 +100,7 @@ const _ = {
     sortedUniq,
     union,
     uniq,
+    upperFirst,
     tail,
     take,
     takeRight,
