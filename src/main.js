@@ -130,5 +130,5 @@ const ranges = _.range(1,5)
 
 const upperFirstCharacter = _.upperFirst('hello')
 
-const repeatSring = _.repeat("hi",4)
+const repeatSring = _.repeat("hi")
 console.log(repeatSring)
