@@ -39,6 +39,7 @@ import pullAll from "./pullAll/pullAll.js";
 import pullAt from "./pullAt/pullAt.js";
 import range from "./range/range.js";
 import remove from "./remove/remove.js";
+import repeat from "./repeat/repeat.js";
 import reverse from "./reverse/reverse.js";
 import size from "./size/size.js";
 import slice from "./slice/slice.js";
@@ -96,6 +97,7 @@ const _ = {
     reverse,
     remove,
     range,
+    repeat,
     slice,
     sortedUniq,
     union,

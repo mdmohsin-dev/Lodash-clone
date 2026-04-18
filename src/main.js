@@ -129,4 +129,6 @@ const getValueByIndex = _.nth([1, 2, 3, 4, 5], 2)
 const ranges = _.range(1,5)
 
 const upperFirstCharacter = _.upperFirst('hello')
-console.log(upperFirstCharacter)
+
+const repeatSring = _.repeat("hi",4)
+console.log(repeatSring)
