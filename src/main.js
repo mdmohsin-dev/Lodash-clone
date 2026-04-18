@@ -125,3 +125,5 @@ const checkEqual = _.eq(10, 10)
 const removeSameItem = _.xor([1, 2], [2, 3])
 
 const getValueByIndex = _.nth([1, 2, 3, 4, 5], 2)
+
+const ranges = _.range(1,5)
