@@ -30,6 +30,7 @@ import isObject from "./isObject/isObject.js";
 import join from "./join/join.js";
 import last from "./last/last.js";
 import lastIndexOf from "./lastIndexOf/lastIndexOf.js";
+import { lowerFirst } from "./lowerFirst/lowerFirst.js";
 import lt from "./lt/lt.js";
 import lte from "./lte/lte.js";
 import max from "./max/max.js";
@@ -88,6 +89,7 @@ const _ = {
     last,
     lastIndexOf,
     lt,
+    lowerFirst,
     lte,
     max,
     nth,
