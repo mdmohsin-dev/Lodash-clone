@@ -11,7 +11,7 @@ const diffrences = _.diffrence([1, 2, 3], [3, 4])
 
 const diffrencesBy = _.diffrenceBy([1.2, 2.2, 2.7], [2.2])
 
-const removeItem = _.remove([1, 2, 3, 4],n => n % 2 === 0)
+const removeItem = _.remove([1, 2, 3, 4], n => n % 2 === 0)
 
 const objects = [{ x: 1 }, { x: 2 }];
 const others = [{ x: 1 }];
@@ -126,7 +126,7 @@ const removeSameItem = _.xor([1, 2], [2, 3])
 
 const getValueByIndex = _.nth([1, 2, 3, 4, 5], 2)
 
-const ranges = _.range(1,5)
+const ranges = _.range(1, 5)
 
 const upperFirstCharacter = _.upperFirst('hello')
 
@@ -135,4 +135,7 @@ const repeatSring = _.repeat("hi")
 const lowerFirstCharacter = _.lowerFirst('AMAR')
 
 const getCapitalize = _.capitalize('bangladesh')
-console.log(getCapitalize)
+
+const obj = { name: 'mohsin', age: 21, role: 'fullstack developer' }
+const pickAnyObject = _.pick(obj, ['name', 'role'])
+console.log(pickAnyObject)

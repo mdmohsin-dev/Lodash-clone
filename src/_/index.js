@@ -36,6 +36,7 @@ import lt from "./lt/lt.js";
 import lte from "./lte/lte.js";
 import max from "./max/max.js";
 import nth from "./nth/nth.js";
+import pick from "./pick/pick.js";
 import pull from "./pull/pull.js";
 import pullAll from "./pullAll/pullAll.js";
 import pullAt from "./pullAt/pullAt.js";
@@ -95,6 +96,7 @@ const _ = {
     lte,
     max,
     nth,
+    pick,
     pull,
     pullAll,
     pullAt,
