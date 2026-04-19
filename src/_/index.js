@@ -1,3 +1,4 @@
+import capitalize from "./capitalize/capitalize.js";
 import chunk from "./chunk/chunk.js";
 import compact from "./compact/compact.js";
 import concact from "./concat/concat.js";
@@ -58,6 +59,7 @@ import xor from "./xor/xor.js";
 const _ = {
     chunk,
     compact,
+    capitalize,
     concact,
     diffrence,
     diffrenceBy,

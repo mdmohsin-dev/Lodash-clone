@@ -133,4 +133,6 @@ const upperFirstCharacter = _.upperFirst('hello')
 const repeatSring = _.repeat("hi")
 
 const lowerFirstCharacter = _.lowerFirst('AMAR')
-console.log(lowerFirstCharacter)
+
+const getCapitalize = _.capitalize('bangladesh')
+console.log(getCapitalize)
