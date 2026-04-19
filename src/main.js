@@ -137,5 +137,8 @@ const lowerFirstCharacter = _.lowerFirst('AMAR')
 const getCapitalize = _.capitalize('bangladesh')
 
 const obj = { name: 'mohsin', age: 21, role: 'fullstack developer' }
-const pickAnyObject = _.pick(obj, ['name', 'role'])
-console.log(pickAnyObject)
+
+const pickAnyPair = _.pick(obj, ['name', 'role'])
+
+const withoutAnyPair = _.omit(obj,['role'])
+console.log(withoutAnyPair)
