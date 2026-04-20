@@ -48,6 +48,7 @@ import reverse from "./reverse/reverse.js";
 import size from "./size/size.js";
 import slice from "./slice/slice.js";
 import sortedUniq from "./sortedUniq/sortedUniq.js";
+import subtract from "./subtract/subtract.js";
 import { sum } from "./sum/sum.js";
 import tail from "./tail/tail.js";
 import take from "./take/take.js";
@@ -109,6 +110,7 @@ const _ = {
     repeat,
     slice,
     sum,
+    subtract,
     sortedUniq,
     union,
     uniq,

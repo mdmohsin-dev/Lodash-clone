@@ -142,5 +142,7 @@ const pickAnyPair = _.pick(obj, ['name', 'role'])
 
 const withoutAnyPair = _.omit(obj, ['role'])
 
-const sumOfNumbers = _.sum([5, 10, -5])
-console.log(sumOfNumbers)
+const summation = _.sum([5, 10, -5])
+
+const subtraction = _.subtract(6,4)
+console.log(subtraction)
