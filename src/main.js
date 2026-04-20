@@ -144,5 +144,7 @@ const withoutAnyPair = _.omit(obj, ['role'])
 
 const summation = _.sum([5, 10, -5])
 
-const subtraction = _.subtract(6,4)
-console.log(subtraction)
+const subtraction = _.subtract(6, 4)
+
+const multiplication = _.multiply(6, 5)
+console.log(multiplication)

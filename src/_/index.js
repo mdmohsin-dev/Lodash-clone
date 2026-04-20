@@ -35,6 +35,7 @@ import { lowerFirst } from "./lowerFirst/lowerFirst.js";
 import lt from "./lt/lt.js";
 import lte from "./lte/lte.js";
 import max from "./max/max.js";
+import multiply from "./multiply/multiply.js";
 import nth from "./nth/nth.js";
 import omit from "./omit/omit.js";
 import pick from "./pick/pick.js";
@@ -98,6 +99,7 @@ const _ = {
     lowerFirst,
     lte,
     max,
+    multiply,
     nth,
     omit,
     pick,
