@@ -1,3 +1,4 @@
+import add from "./add/add.js";
 import capitalize from "./capitalize/capitalize.js";
 import chunk from "./chunk/chunk.js";
 import compact from "./compact/compact.js";
@@ -65,6 +66,7 @@ import xor from "./xor/xor.js";
 
 
 const _ = {
+    add,
     chunk,
     compact,
     capitalize,
