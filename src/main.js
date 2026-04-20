@@ -152,3 +152,6 @@ const multiplication = _.multiply(6, 5)
 const minNumber = _.min([3, 2, 6, 1, 8])
 
 const meanOfNumbers = _.mean([2, 4, 5, 1])
+
+const division = _.divide(15,5)
+console.log(division)

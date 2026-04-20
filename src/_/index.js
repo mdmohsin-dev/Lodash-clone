@@ -5,6 +5,7 @@ import concact from "./concat/concat.js";
 import diffrence from "./diffrence/diffrence.js";
 import diffrenceBy from "./diffrenceBy/diffrenceBy.js";
 import differenceWith from "./diffrenceWith/dirrenceWith.js";
+import divide from "./divide/divide.js";
 import drop from "./drop/drop.js";
 import dropRight from "./dropRight/dropRight.js";
 import dropRightWhite from "./dropRightWhile/dropRightWhile.js";
@@ -71,6 +72,7 @@ const _ = {
     diffrence,
     diffrenceBy,
     differenceWith,
+    divide,
     drop,
     dropRight,
     dropWhile,
