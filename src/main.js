@@ -1,4 +1,5 @@
 import _ from "./_/index.js";
+import min from "./_/min/min.js";
 
 
 const chunks = _.chunk([1, 2, 3, 4, 5, 6], 2)
@@ -147,4 +148,6 @@ const summation = _.sum([5, 10, -5])
 const subtraction = _.subtract(6, 4)
 
 const multiplication = _.multiply(6, 5)
-console.log(multiplication)
+
+const minNumber = _.min([3,2,6,1,8])
+console.log(minNumber)

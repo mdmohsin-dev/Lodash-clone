@@ -1,15 +1,15 @@
-export default function max(array) {
+export default function min(array) {
     if (!Array.isArray(array) || array.length === 0) return undefined
 
-    let maxNum = undefined
+    let minNum = undefined
 
     for (const item of array) {
         if (typeof item !== "number" || item !== item) continue
 
-        if (maxNum === undefined || maxNum < item) {
-            maxNum = item
+        if (minNum === undefined || minNum > item) {
+            minNum = item
         }
     }
 
-    return maxNum
+    return minNum
 }
