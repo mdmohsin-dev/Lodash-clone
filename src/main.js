@@ -156,4 +156,6 @@ const meanOfNumbers = _.mean([2, 4, 5, 1])
 const division = _.divide(15,5)
 
 const addNumbers = _.add(4,5)
-console.log(addNumbers)
+
+const createObject = _.zipObject(['a', 'b'], [1, 2])
+console.log(createObject)
