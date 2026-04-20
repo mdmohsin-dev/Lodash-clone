@@ -149,5 +149,6 @@ const subtraction = _.subtract(6, 4)
 
 const multiplication = _.multiply(6, 5)
 
-const minNumber = _.min([3,2,6,1,8])
-console.log(minNumber)
+const minNumber = _.min([3, 2, 6, 1, 8])
+
+const meanOfNumbers = _.mean([2, 4, 5, 1])
