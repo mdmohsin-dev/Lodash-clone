@@ -59,6 +59,7 @@ import tail from "./tail/tail.js";
 import take from "./take/take.js";
 import takeRight from "./takeRight/takeRight.js";
 import union from "./union/union.js";
+import unionBy from "./unionBy/unionBy.js";
 import uniq from "./uniq/uniq.js";
 import { upperFirst } from "./upperFirst/upperFirst.js";
 import without from "./without/without.js";
@@ -124,6 +125,7 @@ const _ = {
     subtract,
     sortedUniq,
     union,
+    unionBy,
     uniq,
     upperFirst,
     tail,
