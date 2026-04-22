@@ -153,11 +153,13 @@ const minNumber = _.min([3, 2, 6, 1, 8])
 
 const meanOfNumbers = _.mean([2, 4, 5, 1])
 
-const division = _.divide(15,5)
+const division = _.divide(15, 5)
 
-const addNumbers = _.add(4,5)
+const addNumbers = _.add(4, 5)
 
 const createObject = _.zipObject(['a', 'b'], [1, 2])
 
-const unionBy = _.unionBy([2.1], [1.2, 2.3])
-console.log(unionBy)
+const getUniqWithDecimal = _.unionBy([2.1], [1.2, 2.3])
+
+const breakArrayByCondition = _.flattenDepth([1, [2, [3, [4]], 5]], 2)
+console.log(breakArrayByCondition)

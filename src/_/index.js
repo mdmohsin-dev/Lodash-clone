@@ -17,6 +17,7 @@ import findIndex from "./findIndex/findIndex.js";
 import findLastIndex from "./findLastIndex/findLastIndex.js";
 import faltten from "./flatten/faltten.js";
 import flattenDeep from "./flattenDeep/flattenDeep.js";
+import flattenDepth from "./flattenDepth/flattenDepth.js";
 import fromPairs from "./fromPairs/fromPairs.js";
 import gt from "./gt/gt.js";
 import gte from "./gte/gte.js";
@@ -85,6 +86,10 @@ const _ = {
     fill,
     findIndex,
     findLastIndex,
+    faltten,
+    flattenDeep,
+    flattenDepth,
+    fromPairs,
     gt,
     gte,
     head,
@@ -97,9 +102,6 @@ const _ = {
     isBoolean,
     isNumber,
     isObject,
-    faltten,
-    flattenDeep,
-    fromPairs,
     join,
     last,
     lastIndexOf,
@@ -121,17 +123,17 @@ const _ = {
     range,
     repeat,
     slice,
+    size,
     sum,
     subtract,
     sortedUniq,
+    tail,
+    take,
+    takeRight,
     union,
     unionBy,
     uniq,
     upperFirst,
-    tail,
-    take,
-    takeRight,
-    size,
     without,
     xor,
     zipObject
