@@ -55,6 +55,7 @@ import reverse from "./reverse/reverse.js";
 import size from "./size/size.js";
 import slice from "./slice/slice.js";
 import sortedUniq from "./sortedUniq/sortedUniq.js";
+import startsWith from "./startsWith/startWith.js";
 import subtract from "./subtract/subtract.js";
 import { sum } from "./sum/sum.js";
 import tail from "./tail/tail.js";
@@ -129,6 +130,7 @@ const _ = {
     sum,
     subtract,
     sortedUniq,
+    startsWith,
     tail,
     take,
     takeRight,
