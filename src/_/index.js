@@ -48,6 +48,7 @@ import pull from "./pull/pull.js";
 import pullAll from "./pullAll/pullAll.js";
 import pullAt from "./pullAt/pullAt.js";
 import range from "./range/range.js";
+import rangeRight from "./rangeRight/rangeRight.js";
 import remove from "./remove/remove.js";
 import repeat from "./repeat/repeat.js";
 import reverse from "./reverse/reverse.js";
@@ -121,6 +122,7 @@ const _ = {
     reverse,
     remove,
     range,
+    rangeRight,
     repeat,
     slice,
     size,

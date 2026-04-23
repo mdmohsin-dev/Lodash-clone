@@ -162,4 +162,6 @@ const createObject = _.zipObject(['a', 'b'], [1, 2])
 const getUniqWithDecimal = _.unionBy([2.1], [1.2, 2.3])
 
 const breakArrayByCondition = _.flattenDepth([1, [2, [3, [4]], 5]], 2)
-console.log(breakArrayByCondition)
+
+const rangesRight = _.rangeRight(0,20,5)
+console.log(rangesRight)
