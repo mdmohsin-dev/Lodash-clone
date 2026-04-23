@@ -3,6 +3,7 @@ import capitalize from "./capitalize/capitalize.js";
 import chunk from "./chunk/chunk.js";
 import compact from "./compact/compact.js";
 import concact from "./concat/concat.js";
+import defaultTo from "./defaultTo/defaultTo.js";
 import diffrence from "./diffrence/diffrence.js";
 import diffrenceBy from "./diffrenceBy/diffrenceBy.js";
 import differenceWith from "./diffrenceWith/dirrenceWith.js";
@@ -76,6 +77,7 @@ const _ = {
     compact,
     capitalize,
     concact,
+    defaultTo,
     diffrence,
     diffrenceBy,
     differenceWith,

@@ -166,3 +166,6 @@ const breakArrayByCondition = _.flattenDepth([1, [2, [3, [4]], 5]], 2)
 const rangesRight = _.rangeRight(0, 20, 5)
 
 const matchFirstChar = _.startsWith('hello world', 'hello')
+
+const getDefault = _.defaultTo(1, 10)
+console.log(getDefault)
