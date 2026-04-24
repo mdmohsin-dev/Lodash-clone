@@ -44,6 +44,7 @@ import min from "./min/min.js";
 import multiply from "./multiply/multiply.js";
 import nth from "./nth/nth.js";
 import omit from "./omit/omit.js";
+import omitBy from "./omitBy/omitBy.js";
 import pick from "./pick/pick.js";
 import pull from "./pull/pull.js";
 import pullAll from "./pullAll/pullAll.js";
@@ -118,6 +119,7 @@ const _ = {
     multiply,
     nth,
     omit,
+    omitBy,
     pick,
     pull,
     pullAll,
