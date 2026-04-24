@@ -26,6 +26,7 @@ import head from "./head/head.js";
 import includes from "./includes/includes.js";
 import indexOf from "./indexOf/indexOf.js";
 import initial from "./initial/initial.js";
+import inRange from "./inRange/inRange.js";
 import intersection from "./intersection/intersection.js";
 import intersectionBy from "./intersectionBy/intersectionBy.js";
 import isArray from "./isArray/isArray.js";
@@ -103,6 +104,7 @@ const _ = {
     initial,
     intersection,
     intersectionBy,
+    inRange,
     isArray,
     isBoolean,
     isNumber,

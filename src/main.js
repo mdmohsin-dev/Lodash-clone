@@ -170,4 +170,6 @@ const matchFirstChar = _.startsWith('hello world', 'hello')
 const getDefault = _.defaultTo(1, 10)
 
 const resultOfOmitBy = _.omitBy({ a: 1, b: '2',c:3}, value => typeof value === 'number')
-console.log(resultOfOmitBy)
+
+const resultOf_inRange = _.inRange(3, 2, 5)
+console.log(resultOf_inRange)
