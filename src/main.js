@@ -172,4 +172,7 @@ const getDefault = _.defaultTo(1, 10)
 const resultOfOmitBy = _.omitBy({ a: 1, b: '2',c:3}, value => typeof value === 'number')
 
 const resultOf_inRange = _.inRange(3, 2, 5)
-console.log(resultOf_inRange)
+
+const resultOfClump = _.clamp(10, 0, 5)
+
+console.log(resultOfClump)

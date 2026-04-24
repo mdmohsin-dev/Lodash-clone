@@ -1,6 +1,7 @@
 import add from "./add/add.js";
 import capitalize from "./capitalize/capitalize.js";
 import chunk from "./chunk/chunk.js";
+import clamp from "./clamp/clamp.js";
 import compact from "./compact/compact.js";
 import concact from "./concat/concat.js";
 import defaultTo from "./defaultTo/defaultTo.js";
@@ -76,6 +77,7 @@ import zipObject from "./zipObject/zipObject.js";
 const _ = {
     add,
     chunk,
+    clamp,
     compact,
     capitalize,
     concact,
