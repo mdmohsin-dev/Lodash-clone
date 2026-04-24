@@ -175,4 +175,6 @@ const resultOf_inRange = _.inRange(3, 2, 5)
 
 const resultOfClump = _.clamp(10, 0, 5)
 
-console.log(resultOfClump)
+const checkUndefined = _.isUndefined(true)
+
+console.log(checkUndefined)

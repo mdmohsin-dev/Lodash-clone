@@ -34,6 +34,7 @@ import isArray from "./isArray/isArray.js";
 import isBoolean from "./isBoolean/isBoolean.js";
 import isNumber from "./isNumber/isNumber.js";
 import isObject from "./isObject/isObject.js";
+import { isUndefined } from "./isUndefined/isUndefined.js";
 import join from "./join/join.js";
 import last from "./last/last.js";
 import lastIndexOf from "./lastIndexOf/lastIndexOf.js";
@@ -142,6 +143,7 @@ const _ = {
     tail,
     take,
     takeRight,
+    isUndefined,
     union,
     unionBy,
     uniq,
