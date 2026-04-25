@@ -192,4 +192,6 @@ const arrayCast = _.castArray('abc')
 const getSample = _.sample([1, 2, 3, 4])
 
 const takeByCondition = _.takeWhile([1, 2, 3, 4], n => n < 3)
-console.log(takeByCondition)
+
+const takeRightByCondition = _.takeRightWhile([1, 2, 3, 4], n => n > 2)
+console.log(takeRightByCondition)

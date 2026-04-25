@@ -73,6 +73,7 @@ import { sum } from "./sum/sum.js";
 import tail from "./tail/tail.js";
 import take from "./take/take.js";
 import takeRight from "./takeRight/takeRight.js";
+import { takeRightWhile } from "./takeRighWhile/takeRightWhile.js";
 import { takeWhile } from "./takeWhile/takeWhile.js";
 import union from "./union/union.js";
 import unionBy from "./unionBy/unionBy.js";
@@ -158,6 +159,7 @@ const _ = {
     tail,
     take,
     takeRight,
+    takeRightWhile,
     takeWhile,
     isUndefined,
     union,
