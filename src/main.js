@@ -180,4 +180,6 @@ const checkUndefined = _.isUndefined(true)
 const checkNull = _.isNull( void 0)
 
 const checkValueNullOrUndefined = _.isNil(undefined)
-console.log(checkValueNullOrUndefined)
+
+const checkNaN = _.isNaN(2)
+console.log(checkNaN)
