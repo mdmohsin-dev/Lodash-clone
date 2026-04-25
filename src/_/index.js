@@ -16,6 +16,7 @@ import dropWhile from "./dropWhile/dropWhile.js";
 import eq from "./eq/eq.js";
 import fill from "./fill/fill.js";
 import findIndex from "./findIndex/findIndex.js";
+import { findLast } from "./findLast/findLast.js";
 import findLastIndex from "./findLastIndex/findLastIndex.js";
 import faltten from "./flatten/faltten.js";
 import flattenDeep from "./flattenDeep/flattenDeep.js";
@@ -97,6 +98,7 @@ const _ = {
     eq,
     fill,
     findIndex,
+    findLast,
     findLastIndex,
     faltten,
     flattenDeep,

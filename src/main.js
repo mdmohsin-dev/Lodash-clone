@@ -182,4 +182,6 @@ const checkNull = _.isNull( void 0)
 const checkValueNullOrUndefined = _.isNil(undefined)
 
 const checkNaN = _.isNaN(2)
-console.log(checkNaN)
+
+const getLast = _.findLast([1, 2, 3, 4], n => n % 2 === 0)
+console.log(getLast)
