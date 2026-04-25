@@ -32,6 +32,7 @@ import intersection from "./intersection/intersection.js";
 import intersectionBy from "./intersectionBy/intersectionBy.js";
 import isArray from "./isArray/isArray.js";
 import isBoolean from "./isBoolean/isBoolean.js";
+import { isNull } from "./isNull/isNull.js";
 import isNumber from "./isNumber/isNumber.js";
 import isObject from "./isObject/isObject.js";
 import { isUndefined } from "./isUndefined/isUndefined.js";
@@ -110,6 +111,7 @@ const _ = {
     inRange,
     isArray,
     isBoolean,
+    isNull,
     isNumber,
     isObject,
     join,

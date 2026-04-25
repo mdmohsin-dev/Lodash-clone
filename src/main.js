@@ -177,4 +177,4 @@ const resultOfClump = _.clamp(10, 0, 5)
 
 const checkUndefined = _.isUndefined(true)
 
-console.log(checkUndefined)
+const checkNull = _.isNull( void 0)
