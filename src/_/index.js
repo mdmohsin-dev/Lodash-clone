@@ -63,6 +63,7 @@ import rangeRight from "./rangeRight/rangeRight.js";
 import remove from "./remove/remove.js";
 import repeat from "./repeat/repeat.js";
 import reverse from "./reverse/reverse.js";
+import { sample } from "./sample/sample.js";
 import size from "./size/size.js";
 import slice from "./slice/slice.js";
 import sortedUniq from "./sortedUniq/sortedUniq.js";
@@ -146,6 +147,7 @@ const _ = {
     range,
     rangeRight,
     repeat,
+    sample,
     slice,
     size,
     sum,
