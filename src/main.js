@@ -178,3 +178,6 @@ const resultOfClump = _.clamp(10, 0, 5)
 const checkUndefined = _.isUndefined(true)
 
 const checkNull = _.isNull( void 0)
+
+const checkValueNullOrUndefined = _.isNil(undefined)
+console.log(checkValueNullOrUndefined)
