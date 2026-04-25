@@ -169,7 +169,7 @@ const matchFirstChar = _.startsWith('hello world', 'hello')
 
 const getDefault = _.defaultTo(1, 10)
 
-const resultOfOmitBy = _.omitBy({ a: 1, b: '2',c:3}, value => typeof value === 'number')
+const resultOfOmitBy = _.omitBy({ a: 1, b: '2', c: 3 }, value => typeof value === 'number')
 
 const resultOf_inRange = _.inRange(3, 2, 5)
 
@@ -177,7 +177,7 @@ const resultOfClump = _.clamp(10, 0, 5)
 
 const checkUndefined = _.isUndefined(true)
 
-const checkNull = _.isNull( void 0)
+const checkNull = _.isNull(void 0)
 
 const checkValueNullOrUndefined = _.isNil(undefined)
 
@@ -190,4 +190,6 @@ const findValue = _.find([1, 2, 3, 4], n => n % 2 === 0)
 const arrayCast = _.castArray('abc')
 
 const getSample = _.sample([1, 2, 3, 4])
-console.log(getSample)
+
+const takeByCondition = _.takeWhile([1, 2, 3, 4], n => n < 3)
+console.log(takeByCondition)
