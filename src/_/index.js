@@ -16,6 +16,7 @@ import dropRightWhite from "./dropRightWhile/dropRightWhile.js";
 import dropWhile from "./dropWhile/dropWhile.js";
 import eq from "./eq/eq.js";
 import fill from "./fill/fill.js";
+import { filter } from "./filter/filter.js";
 import { find } from "./find/find.js";
 import findIndex from "./findIndex/findIndex.js";
 import { findLast } from "./findLast/findLast.js";
@@ -103,6 +104,7 @@ const _ = {
     dropRightWhite,
     eq,
     fill,
+    filter,
     find,
     findIndex,
     findLast,
