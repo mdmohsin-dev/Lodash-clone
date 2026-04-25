@@ -1,5 +1,6 @@
 import add from "./add/add.js";
 import capitalize from "./capitalize/capitalize.js";
+import { castArray } from "./castArray/castArray.js";
 import chunk from "./chunk/chunk.js";
 import clamp from "./clamp/clamp.js";
 import compact from "./compact/compact.js";
@@ -82,6 +83,7 @@ import zipObject from "./zipObject/zipObject.js";
 
 const _ = {
     add,
+    castArray,
     chunk,
     clamp,
     compact,
