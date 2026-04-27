@@ -48,6 +48,7 @@ import lastIndexOf from "./lastIndexOf/lastIndexOf.js";
 import { lowerFirst } from "./lowerFirst/lowerFirst.js";
 import lt from "./lt/lt.js";
 import lte from "./lte/lte.js";
+import map from "./map/map.js";
 import max from "./max/max.js";
 import mean from "./mean/mean.js";
 import min from "./min/min.js";
@@ -137,6 +138,7 @@ const _ = {
     lt,
     lowerFirst,
     lte,
+    map,
     max,
     mean,
     min,
