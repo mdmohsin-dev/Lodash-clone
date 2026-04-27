@@ -79,6 +79,7 @@ import { takeWhile } from "./takeWhile/takeWhile.js";
 import union from "./union/union.js";
 import unionBy from "./unionBy/unionBy.js";
 import uniq from "./uniq/uniq.js";
+import unzip from "./unzip/unzip.js";
 import { upperFirst } from "./upperFirst/upperFirst.js";
 import without from "./without/without.js";
 import xor from "./xor/xor.js";
@@ -168,6 +169,7 @@ const _ = {
     union,
     unionBy,
     uniq,
+    unzip,
     upperFirst,
     without,
     xor,

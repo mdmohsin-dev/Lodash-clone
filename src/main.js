@@ -198,4 +198,6 @@ const takeRightByCondition = _.takeRightWhile([1, 2, 3, 4], n => n > 2)
 const filtered = _.filter([1, 2, 3, 4], n => n % 2 === 0)
 
 const combinedArray = _.zip([1, 2], [3, 4], [5, 6])
-console.log(combinedArray)
+
+const resultOfUnzip = _.unzip([[1, 3, 5], [2, 4, 6]])
+console.log(resultOfUnzip)
