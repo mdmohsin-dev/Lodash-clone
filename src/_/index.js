@@ -1,4 +1,5 @@
 import add from "./add/add.js";
+import assign from "./assign/assign.js";
 import capitalize from "./capitalize/capitalize.js";
 import { castArray } from "./castArray/castArray.js";
 import chunk from "./chunk/chunk.js";
@@ -92,6 +93,7 @@ import zipObject from "./zipObject/zipObject.js";
 
 const _ = {
     add,
+    assign,
     castArray,
     chunk,
     clamp,
