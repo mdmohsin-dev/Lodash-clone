@@ -46,6 +46,7 @@ import isNumber from "./isNumber/isNumber.js";
 import isObject from "./isObject/isObject.js";
 import { isUndefined } from "./isUndefined/isUndefined.js";
 import join from "./join/join.js";
+import keys from "./keys/keys.js";
 import last from "./last/last.js";
 import lastIndexOf from "./lastIndexOf/lastIndexOf.js";
 import { lowerFirst } from "./lowerFirst/lowerFirst.js";
@@ -140,6 +141,7 @@ const _ = {
     isNumber,
     isObject,
     join,
+    keys,
     last,
     lastIndexOf,
     lt,

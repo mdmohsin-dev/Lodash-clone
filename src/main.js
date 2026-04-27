@@ -210,4 +210,6 @@ const resultOfEvery = _.every([2, 3, 6], n => n % 2 === 0)
 const assignResult = _.assign({ a: 1 }, { b: 2 }, { a: 3 })
 
 const hasValue = _.has({ a: { b: 2 } },'a')
-console.log(hasValue)
+
+const getKey = _.keys({ a: 1, b: 2, c: 3 })
+console.log(getKey)
