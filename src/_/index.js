@@ -82,6 +82,7 @@ import uniq from "./uniq/uniq.js";
 import { upperFirst } from "./upperFirst/upperFirst.js";
 import without from "./without/without.js";
 import xor from "./xor/xor.js";
+import zip from "./zip/zip.js";
 import zipObject from "./zipObject/zipObject.js";
 
 
@@ -170,6 +171,7 @@ const _ = {
     upperFirst,
     without,
     xor,
+    zip,
     zipObject
 }
 
