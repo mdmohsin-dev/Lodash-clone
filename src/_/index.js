@@ -15,6 +15,7 @@ import dropRight from "./dropRight/dropRight.js";
 import dropRightWhite from "./dropRightWhile/dropRightWhile.js";
 import dropWhile from "./dropWhile/dropWhile.js";
 import eq from "./eq/eq.js";
+import every from "./every/every.js";
 import fill from "./fill/fill.js";
 import { filter } from "./filter/filter.js";
 import { find } from "./find/find.js";
@@ -107,6 +108,7 @@ const _ = {
     dropWhile,
     dropRightWhite,
     eq,
+    every,
     fill,
     filter,
     find,
