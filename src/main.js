@@ -214,4 +214,6 @@ const hasValue = _.has({ a: { b: 2 } },'a')
 const getKeys = _.keys({ a: 1, b: 2, c: 3 })
 
 const getValues = _.values({ x: 10, y: 20 })
-console.log(getValues)
+
+const getRandomNumber = _.random(1,10)
+console.log(getRandomNumber)

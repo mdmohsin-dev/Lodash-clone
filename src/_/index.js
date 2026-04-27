@@ -64,6 +64,7 @@ import pick from "./pick/pick.js";
 import pull from "./pull/pull.js";
 import pullAll from "./pullAll/pullAll.js";
 import pullAt from "./pullAt/pullAt.js";
+import random from "./random/random.js";
 import range from "./range/range.js";
 import rangeRight from "./rangeRight/rangeRight.js";
 import remove from "./remove/remove.js";
@@ -160,6 +161,7 @@ const _ = {
     pull,
     pullAll,
     pullAt,
+    random,
     reverse,
     remove,
     range,
