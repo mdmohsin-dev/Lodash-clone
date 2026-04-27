@@ -87,6 +87,7 @@ import unionBy from "./unionBy/unionBy.js";
 import uniq from "./uniq/uniq.js";
 import unzip from "./unzip/unzip.js";
 import { upperFirst } from "./upperFirst/upperFirst.js";
+import values from "./values/values.js";
 import without from "./without/without.js";
 import xor from "./xor/xor.js";
 import zip from "./zip/zip.js";
@@ -183,6 +184,7 @@ const _ = {
     uniq,
     unzip,
     upperFirst,
+    values,
     without,
     xor,
     zip,

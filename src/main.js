@@ -212,4 +212,6 @@ const assignResult = _.assign({ a: 1 }, { b: 2 }, { a: 3 })
 const hasValue = _.has({ a: { b: 2 } },'a')
 
 const getKeys = _.keys({ a: 1, b: 2, c: 3 })
-console.log(getKey)
+
+const getValues = _.values({ x: 10, y: 20 })
+console.log(getValues)
