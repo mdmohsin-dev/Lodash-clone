@@ -208,4 +208,6 @@ const resultOfSome = _.some([1, 2, 3, 4], n => n > 3)
 const resultOfEvery = _.every([2, 3, 6], n => n % 2 === 0)
 
 const assignResult = _.assign({ a: 1 }, { b: 2 }, { a: 3 })
-console.log(assignResult)
+
+const hasValue = _.has({ a: { b: 2 } },'a')
+console.log(hasValue)

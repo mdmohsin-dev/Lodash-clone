@@ -29,6 +29,7 @@ import flattenDepth from "./flattenDepth/flattenDepth.js";
 import fromPairs from "./fromPairs/fromPairs.js";
 import gt from "./gt/gt.js";
 import gte from "./gte/gte.js";
+import has from "./has/has.js";
 import head from "./head/head.js";
 import includes from "./includes/includes.js";
 import indexOf from "./indexOf/indexOf.js";
@@ -123,6 +124,7 @@ const _ = {
     fromPairs,
     gt,
     gte,
+    has,
     head,
     indexOf,
     includes,
