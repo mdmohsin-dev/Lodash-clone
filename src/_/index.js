@@ -31,6 +31,7 @@ import gt from "./gt/gt.js";
 import gte from "./gte/gte.js";
 import has from "./has/has.js";
 import head from "./head/head.js";
+import identity from "./identity/identity.js";
 import includes from "./includes/includes.js";
 import indexOf from "./indexOf/indexOf.js";
 import initial from "./initial/initial.js";
@@ -142,6 +143,7 @@ const _ = {
     isNull,
     isNumber,
     isObject,
+    identity,
     join,
     keys,
     last,
