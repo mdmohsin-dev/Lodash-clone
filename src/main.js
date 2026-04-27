@@ -211,5 +211,5 @@ const assignResult = _.assign({ a: 1 }, { b: 2 }, { a: 3 })
 
 const hasValue = _.has({ a: { b: 2 } },'a')
 
-const getKey = _.keys({ a: 1, b: 2, c: 3 })
+const getKeys = _.keys({ a: 1, b: 2, c: 3 })
 console.log(getKey)
