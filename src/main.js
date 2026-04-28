@@ -218,3 +218,6 @@ const getValues = _.values({ x: 10, y: 20 })
 const getRandomNumber = _.random(1,10)
 
 const identityResult = _.identity('Hello')
+
+const resultOfisEqual = _.isEqual([1, 2], [1, 2])
+console.log(resultOfisEqual)
