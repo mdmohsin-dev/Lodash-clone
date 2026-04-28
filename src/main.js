@@ -218,4 +218,3 @@ const getValues = _.values({ x: 10, y: 20 })
 const getRandomNumber = _.random(1,10)
 
 const identityResult = _.identity('Hello')
-console.log(identityResult)

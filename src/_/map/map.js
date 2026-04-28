@@ -8,7 +8,7 @@ export default function map(collection, iteratee) {
     } else {
         for (let key in collection) {
             result.push(iteratee(collection[key], key, collection))
-        }
+        }g
     }
 
     return result

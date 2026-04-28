@@ -4,6 +4,7 @@ import capitalize from "./capitalize/capitalize.js";
 import { castArray } from "./castArray/castArray.js";
 import chunk from "./chunk/chunk.js";
 import clamp from "./clamp/clamp.js";
+import { cloneDeep } from "./cloneDeep/cloneDeep.js";
 import compact from "./compact/compact.js";
 import concact from "./concat/concat.js";
 import defaultTo from "./defaultTo/defaultTo.js";
@@ -102,6 +103,7 @@ const _ = {
     castArray,
     chunk,
     clamp,
+    cloneDeep,
     compact,
     capitalize,
     concact,
