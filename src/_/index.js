@@ -41,6 +41,7 @@ import intersection from "./intersection/intersection.js";
 import intersectionBy from "./intersectionBy/intersectionBy.js";
 import isArray from "./isArray/isArray.js";
 import isBoolean from "./isBoolean/isBoolean.js";
+import { isEmpty } from "./isEmpty/isEmpty.js";
 import { isEqual } from "./isEqual/isEqual.js";
 import isNaN from "./isNaN/isNaN.js";
 import { isNil } from "./isNil/isNil.js";
@@ -141,6 +142,7 @@ const _ = {
     inRange,
     isArray,
     isBoolean,
+    isEmpty,
     isEqual,
     isNaN,
     isNil,

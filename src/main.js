@@ -209,15 +209,17 @@ const resultOfEvery = _.every([2, 3, 6], n => n % 2 === 0)
 
 const assignResult = _.assign({ a: 1 }, { b: 2 }, { a: 3 })
 
-const hasValue = _.has({ a: { b: 2 } },'a')
+const hasValue = _.has({ a: { b: 2 } }, 'a')
 
 const getKeys = _.keys({ a: 1, b: 2, c: 3 })
 
 const getValues = _.values({ x: 10, y: 20 })
 
-const getRandomNumber = _.random(1,10)
+const getRandomNumber = _.random(1, 10)
 
 const identityResult = _.identity('Hello')
 
 const resultOfisEqual = _.isEqual([1, 2], [1, 2])
-console.log(resultOfisEqual)
+
+const checkEmpty = _.isEmpty('')
+console.log(checkEmpty)
